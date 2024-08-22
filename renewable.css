@@ -1,0 +1,180 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+header {
+    background-color: #15523e;
+    height: 100vw; /*changes the height of header*/
+    width: auto;
+    color: #f1edeb;
+    padding: 2px 0; /*check this text is centered*/  
+    border-style: solid;
+    border-color: yellow;  
+    background-image: url("cowboy_grid.jpg"); /* Set the background image using the url() function */
+    background-attachment: fixed;
+    background-size: cover ; /* Set the background size to cover the entire element */
+    background-position: center ; /* Set the position property to relative */    
+    background-repeat: no-repeat;
+    background-position-y: calc(7vw + 20px);   
+    background-position-x: ;
+    }
+ 
+/*container below header*/
+.container {
+    max-width: 90%; /*container1 width and height*/
+    max-height: 40vh;
+    margin: 20 auto;
+    padding: 0 10px;
+    text-align: left; /*moves text container1*/
+    border:solid;
+    border-color: #000000;
+}
+
+.head{
+    position:relative;
+    font-family: "Oswald", sans-serif;
+    font-size: 5.5vw;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    animation: fadeIn 5s;   
+       
+}
+header h1 { 
+    font-size: 4.5vw;
+    text-align: left  ;
+    padding: 8px;
+    margin: 0;
+    color: #f1edeb;
+    text-shadow: 2px 2px 4px #000000;
+    }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+*header style*/
+header h1 {
+    float:left;
+    font-size: 26px;
+    margin-right: auto;
+    padding: auto 0;
+    
+}
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #333;
+}
+
+nav ul {
+    float:right;
+    list-style: none;
+    font-size: 3vh;
+    position:absolute;
+    top: 4vh; /* modifies the position of the the nav bar */
+    right:1vw;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color: #B2d3c2;
+    text-decoration: none;
+}
+
+.container2{
+    padding: 90px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    text-justify:inter-word ;
+    text-align: justify;
+    text-justify: auto;
+    
+}
+.hero2 {
+    /*background-image: url('texas_landscape.jpg');*/
+    background-color: #15523e;
+    color: #f6f6f6;
+    border-style: solid;
+    border-color: yellow;
+}
+
+
+.whytexas{
+    background-color: #15523e;
+    text-align: center;
+    height: 50%; /*changes the height of header*/
+    width: auto;
+    color: #f1edeb;
+    padding: 50px; 
+    border-style: solid;
+    border-color: yellow;  
+    */
+    }
+
+.whytexas{
+    padding: 40px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size:5vh;
+    text-shadow: 2px 2px #FFFFFF;
+}
+
+.textconsumption{
+    padding: none;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size:3vw;
+    font-style: normal;
+    text-shadow: none;
+    text-align: center;
+    text-justify: auto;
+    color: #f1edeb;
+
+}
+
+.txconsumptiontittle{
+    padding: none;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size:7vh;
+    font-style: normal;
+    text-shadow: none;
+    color: rgb(222, 82, 31);
+}
+
+.source{
+    max-width: 100%; /*container1 width and height*/
+    max-height: 40vh;
+    margin: 20 auto;
+    padding: 0 10px;
+    text-align: left; /*moves text container1*/
+    border:solid;
+    border-color: #000000;
+    background-color: #15523e;
+}
